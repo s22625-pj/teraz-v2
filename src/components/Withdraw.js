@@ -60,7 +60,7 @@ const Withdraw = () => {
         </div>
       </div>
       <div id="img" className="flex w-1/2 overflow-hidden items-center mq450:w-full mq450:order-1">
-        {['/withdraw-1.svg', '/withdraw-2.svg', '/withdraw-3.svg'].map((src, index) => (
+        {['/withdraw-1.webp', '/withdraw-2.webp', '/withdraw-3.webp'].map((src, index) => (
           <img
             key={index}
             ref={(el) => (imgRefs.current[index] = el)}

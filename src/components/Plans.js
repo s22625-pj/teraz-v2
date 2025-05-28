@@ -14,7 +14,7 @@ const Plans = () => {
             <div id="card-title" className="flex z-[100] font-satoshi-bold font-[500] text-[14px] uppercase leading-[130%] text-[#4040F2] px-[32px] h-[38px] bg-[#FFFFFF] rounded-full items-center justify-center -mb-[19px]" style={{ boxShadow: 'inset 0 0 0 1px #E2E3EB'}}>DARMOWA karta</div>
             <div id="column" className="flex flex-col w-full">
             <div id="top" className="flex px-[80px] pt-[40px] pb-[24px] bg-[#F9FAFB]" style={{ boxShadow: 'inset 0 0 0 1px #E2E3EB',borderTopLeftRadius: '16px', borderTopRightRadius: '16px' }}>
-                <img src="/teraz-card.svg" className="h-full w-full" />
+                <img src="/teraz-card.webp" className="h-full w-full" />
             </div>
             <div className="flex p-[24px] flex-col gap-[12px]" style={{borderLeft: '1px solid #E2E3EB',borderRight: '1px solid #E2E3EB'}}>
             <div className="flex flex-col gap-[8px]">
@@ -38,7 +38,7 @@ const Plans = () => {
             <div id="card-title" className="flex z-[100] font-satoshi-bold font-[500] text-[14px] uppercase leading-[130%] text-[#4040F2] px-[32px] h-[38px] bg-[#DCFF48] rounded-full items-center justify-center -mb-[19px]">najcześciej wybierana</div>
             <div id="column" className="flex flex-col w-full">
             <div id="top" className="flex px-[80px] pt-[40px] pb-[24px] bg-[#F9FAFB]" style={{ boxShadow: 'inset 0 0 0 1px #E2E3EB',borderTopLeftRadius: '16px', borderTopRightRadius: '16px' }}>
-                <img src="/silver-card.svg" className="h-full w-full" />
+                <img src="/silver-card.webp" className="h-full w-full" />
             </div>
             <div className="flex p-[24px] flex-col gap-[12px]" style={{borderLeft: '1px solid #E2E3EB',borderRight: '1px solid #E2E3EB'}}>
             <div className="flex flex-col gap-[8px]">
@@ -62,7 +62,7 @@ const Plans = () => {
             <div id="card-title" className="flex z-[100] font-satoshi-bold font-[500] text-[14px] uppercase leading-[130%] text-white px-[32px] h-[38px] bg-[#4040F2] rounded-full items-center justify-center -mb-[19px]" >pełna prywatność</div>
             <div id="column" className="flex flex-col w-full">
             <div id="top" className="flex px-[80px] pt-[40px] pb-[24px] bg-[#F9FAFB]" style={{ boxShadow: 'inset 0 0 0 1px #E2E3EB',borderTopLeftRadius: '16px', borderTopRightRadius: '16px' }}>
-                <img src="/gold-card.svg" className="h-full w-full" />
+                <img src="/gold-card.webp" className="h-full w-full" />
             </div>
             <div className="flex p-[24px] flex-col gap-[12px]" style={{borderLeft: '1px solid #E2E3EB',borderRight: '1px solid #E2E3EB'}}>
             <div className="flex flex-col gap-[8px]">

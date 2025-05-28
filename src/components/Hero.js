@@ -41,7 +41,7 @@ const Hero = () => {
         </div>
         <div className='flex w-full justify-center items-center' id='right'>
           <img
-            src='/hero-img.svg'
+            src='/hero-img.webp'
             className='w-full'
           />
         </div>

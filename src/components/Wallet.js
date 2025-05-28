@@ -42,7 +42,7 @@ const Wallet = () => {
   return (
     <div id="wallet" className="flex flex-row mq450:flex-col w-full gap-[64px] mq450:gap-[48px] py-[32px] items-center justify-center h-[450px] mq450:h-auto mq450:py-[16px]">
       <div id="img" className="flex w-1/2 mq450:w-full overflow-hidden items-center">
-        {['/wallet-1.svg', '/wallet-2.svg', '/wallet-3.svg'].map((src, index) => (
+        {['/wallet-1.webp', '/wallet-2.webp', '/wallet-3.webp'].map((src, index) => (
           <img
             key={index}
             ref={(el) => (imgRefs.current[index] = el)}

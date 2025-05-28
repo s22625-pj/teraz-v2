@@ -15,7 +15,7 @@ const Baner = () => {
         </div>
         <div className='flex w-3/5 mq450:w-full justify-center items-center' id='right'>
           <img
-            src='/baner-img.svg'
+            src='/baner-img.webp'
             className='w-full'
           />
         </div>

@@ -2,20 +2,58 @@ import { useState } from "react";
 
 const faqData = [
   {
-    question: "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
-    answer: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet velit dui. Donec iaculis ex in efficitur blandit. Pellentesque eget consequat ante, nec ultricies orci.`,
+    question: "Dlaczego warto wybrać Teraz.cash zamiast zwykłego konta bankowego?",
+    answer: `Z nami to Ty masz pełną kontrolę nad swoimi pieniędzmi, bez pośredników, bez zbędnych formalności i bez ryzyka, że ktoś kiedyś zablokuje Ci konto. Wszystkie środki trzymasz w prywatnym portfelu on-chain i nikt poza Tobą nie ma do niego dostępu, 24/7, gdziekolwiek jesteś. `,
   },
   {
-    question: "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
-    answer: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet velit dui. Donec iaculis ex in efficitur blandit. Pellentesque eget consequat ante, nec ultricies orci.`,
+    question: "Jak Teraz.cash dba o moją prywatność?",
+    answer: ` – Self-custody: aplikacja nie przechowuje Twoich kluczy ani nie udostępnia danych.<br />
+ – Brak śledzenia: nikt nie monitoruje każdego Twojego przelewu.<br />
+ – Minimalna weryfikacja: rejestracja prosta jak w neobanku, ale to Ty decydujesz, ile zdradzisz o sobie.`,
   },
   {
-    question: "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
-    answer: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet velit dui. Donec iaculis ex in efficitur blandit. Pellentesque eget consequat ante, nec ultricies orci.`,
+    question: "Jakie metody płatności obsługuje Teraz.cash?",
+    answer: ` – Link/QR: wygeneruj link lub kod QR, udostępnij klientowi i odbierz zapłatę jednym kliknięciem.<br />
+ – Karta: wirtualna lub fizyczna, działa od razu po doładowaniu — online i zbliżeniowo.<br />
+ – Blik/przelew: prosto z banku, środki od razu w portfelu, bez opóźnień.`,
   },
   {
-    question: "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
-    answer: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet velit dui. Donec iaculis ex in efficitur blandit. Pellentesque eget consequat ante, nec ultricies orci.`,
+    question: "Jak zamówić i używać kartę Teraz.cash?",
+    answer: `1. W zakładce Portfel stuknij „Utwórz kartę”.<br />
+            2. Postępuj krok po kroku według instrukcji na ekranie.<br /><br />
+
+
+        W ciągu kilku sekund karta pojawi się w aplikacji, gotowa do płatności online i stacjonarnie przez NFC.
+`,
+  },
+  {
+    question: "Czy Teraz.cash działa na całym świecie?",
+    answer: `Tak — doładowujesz portfel i kartę, a potem płacisz i wypłacasz gotówkę 24/7 w dowolnym kraju, bez pośredników i ograniczeń geograficznych.
+`,
+  },
+  {
+    question: "Jak łatwo mogę przyjmować płatności jako firma lub freelancer?",
+    answer: `Generujesz link lub kod QR w kilka sekund, wysyłasz go e-mailem, SMS-em lub umieszczasz na stronie. Klient płaci bez rejestracji, Ty natychmiast masz środki w portfelu — bez opóźnień, bez blokad.
+`,
+  },
+  {
+    question: "Czy Teraz.cash jest bezpieczne? / Gdzie i jak są przechowywane moje środki?",
+    answer: `– Self-custodial: tylko Ty masz klucze i dostęp do portfela.<br />
+– USDC (stablecoin) trzymasz w swoim prywatnym, non-custodial portfelu on-chain.<br />
+– Partnerzy regulowani: środki FIAT przechowywane w bezpiecznych rachunkach powierniczych.<br />
+– Szyfrowanie i weryfikacja przy wglądzie w dane karty.  To oznacza maksimum ochrony Twoich pieniędzy.<br />
+ – Aplikacja nie gromadzi Twoich kluczy ani haseł – tylko Ty decydujesz o dostępie do swoich pieniędzy.
+`,
+  },
+  {
+    question: "Czy mogę też wysyłać i odbierać kryptowaluty?",
+    answer: `Tak – wybierz „Transfer” → Portfel kryptowalut, wpisz adres odbiorcy lub zeskanuj kod QR i potwierdź. W kilka sekund środki USDC trafią na wskazany portfel on-chain.
+`,
+  },
+  {
+    question: "Co, jeśli potrzebuję pomocy?",
+    answer: `W aplikacji masz czat 24/7 z zespołem wsparcia. Dodatkowo w każdym planie otrzymujesz poziom supportu dopasowany do Twoich potrzeb — Standard, Priority lub VIP.
+`,
   },
 ];
 

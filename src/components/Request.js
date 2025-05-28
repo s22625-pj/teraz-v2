@@ -43,7 +43,7 @@ const Request = () => {
   return (
     <div id="request" className="flex flex-row mq450:flex-col w-full gap-[64px] mq450:gap-[48px] py-[32px] mq450:py-[16px] items-center justify-center h-[450px] mq450:h-auto">
       <div id="img" className="flex w-1/2 mq450:w-full overflow-hidden items-center">
-        {['/request-1.svg', '/request-2.svg', '/request-3.svg'].map((src, index) => (
+        {['/request-1.webp', '/request-2.webp', '/request-3.webp'].map((src, index) => (
           <img
             key={index}
             ref={(el) => (imgRefs.current[index] = el)}
